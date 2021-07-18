@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.container{
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    display: block;
+    justify-content: space-between;
+}
+
+.minicontainer{
+    display: flex;
+    padding: 10px;
+}
+
+.heading{
+    width: 100%;
+    position: relative;
+}
+
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    background: white;
+    color: blue;
+    border-style: groove;
+    border-color: blueviolet;
+    border-radius: 2px 8px;
+    border-width: 1px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: rgb(119, 0, 255);
+    color: white;
+}
